@@ -28,8 +28,8 @@ Install
 Configuration
 =============
 
-YiiSolarium is a [Yii application component](http://www.yiiframework.com/doc/guide/1.1/en/basics.application#application-components).
-A comprehensive overview of the configuration parameters for Solarium can be found in the [Solarium documentation](http://wiki.solarium-project.org/index.php/V1:Client#Options).
+YiiSolarium is a [Yii application component][yiidoc].
+A comprehensive overview of the configuration parameters for Solarium can be found in the [Solarium documentation][sdoc].
 
 Example:
 ```
@@ -67,3 +67,18 @@ $query->setQuery('name:%p1%', array('Bob'));
 $query->setRows(3);
 $result = $client->select($query);
 ```
+
+Contributing
+============
+
+1. Fork it.
+2. Create a branch (`git checkout -b my_markup`)
+3. Commit your changes (`git commit -am "Added Snarkdown"`)
+4. Push to the branch (`git push origin my_markup`)
+5. Open a [Pull Request][1]
+6. Enjoy a refreshing Diet Coke and wait
+
+
+[yiidoc]: http://www.yiiframework.com/doc/guide/1.1/en/basics.application#application-components
+[sdoc]: http://wiki.solarium-project.org/index.php/V1:Client#Options
+[1]: https://github.com/estahn/YiiSolarium/pulls
