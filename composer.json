@@ -1,0 +1,25 @@
+{
+    "name": "estahn/YiiSolarium",
+    "type": "library",
+    "description": "YiiSolarium integrates Solarium (an opensource Solr client library for PHP applications)",
+    "keywords": ["solr", "search", "php", "yii"],
+    "homepage": "https://github.com/estahn/YiiSolarium",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enrico Stahn",
+            "email": "mail@enricostahn.com"
+        },
+        {
+            "name": "See GitHub contributors",
+            "homepage": "https://github.com/estahn/YiiSolarium/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "solarium/solarium": ">=3.0.1"
+    },
+    "autoload": {
+        "psr-0": { "Solarium": "library/" }
+    }
+}
